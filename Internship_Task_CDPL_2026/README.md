@@ -1,43 +1,60 @@
+# 🚁 Drone Telemetry Web Dashboard  
+### CSWE Internship Task – 2026  
 
-# Drone Telemetry Web Dashboard – CSWE Internship Task
+![HTML](https://img.shields.io/badge/HTML-5-orange?logo=html5)
+![CSS](https://img.shields.io/badge/CSS-3-blue?logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
-## Description
-This project is a **web-based telemetry dashboard** that simulates drone data:
+A lightweight **web-based drone telemetry dashboard** that simulates real-time flight data using pure JavaScript.
 
-- Altitude
-- Speed
-- Battery percentage
-- GPS coordinates
-
-Values update **every second for 30 seconds**, matching the internship requirements.
-
----
-
-## Technologies Used
-- HTML
-- CSS
-- JavaScript (no external libraries)
+Built as part of the **CSWE Internship Technical Task (2026)**.
 
 ---
 
-## How to Run
-1. Download and extract the ZIP.
-2. Open **index.html** in any web browser.
-3. Watch telemetry values update live.
+## 📌 Project Overview
+
+This dashboard simulates the following drone telemetry parameters:
+
+- 📏 **Altitude**
+- 🚀 **Speed**
+- 🔋 **Battery Percentage**
+- 📍 **GPS Coordinates**
+
+All values update dynamically **every second for 30 seconds**, fulfilling the internship task requirements.
 
 ---
 
-## Folder Structure
-```
-CSWE_Web_Telemetry_Dashboard/
-│
-├── index.html
-├── style.css
-├── script.js
-├── README.md
-```
+## ⚡ Features
+
+✔ Real-time telemetry simulation  
+✔ Automatic 1-second updates  
+✔ 30-second runtime  
+✔ Clean and responsive UI  
+✔ No external libraries  
 
 ---
 
-## Author
-CSWE Internship Applicant
+## 🛠️ Technologies Used
+
+- **HTML5** – Structure  
+- **CSS3** – Styling & Layout  
+- **Vanilla JavaScript (ES6)** – Data simulation & DOM updates  
+
+> Built using pure frontend technologies without frameworks.
+
+---
+
+## ▶️ How to Run
+
+1. Clone or download this repository  
+2. Open the project folder  
+3. Double-click **`index.html`**  
+4. Watch the telemetry values update live  
+
+No installation required.
+
+---
+
+## 📂 Folder Structure
+
