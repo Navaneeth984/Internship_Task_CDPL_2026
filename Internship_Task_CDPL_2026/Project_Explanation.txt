@@ -1,0 +1,61 @@
+Drone Telemetry Web Dashboard – Short Explanation
+
+1.  What I Built I created a web-based drone telemetry simulation
+    dashboard that visually displays real-time flight data similar to a
+    drone ground-control telemetry window. The dashboard shows the
+    following parameters:
+
+-   Altitude
+-   Speed
+-   Battery Percentage
+-   GPS Coordinates
+
+The interface updates the telemetry values every 1 second for 30
+seconds, matching the internship task requirements.
+
+2.  How It Works The system is implemented as a front-end web
+    application using HTML, CSS, and JavaScript.
+
+-   HTML structures the telemetry dashboard layout and data fields.
+-   CSS provides a dark aerospace-style UI, card layout, and responsive
+    design for clear visualization.
+-   JavaScript simulates real drone behavior by:
+    -   Generating small random variations in altitude, speed, battery,
+        and GPS position.
+    -   Updating the displayed values once per second using a timer
+        function.
+    -   Stopping the simulation automatically after 30 seconds.
+
+This creates a realistic live telemetry monitoring experience similar to
+professional drone mission-planner interfaces.
+
+3.  Tools and Software Used
+
+Development Technologies - HTML5 – dashboard structure - CSS3 – styling
+and layout - JavaScript (Vanilla JS) – telemetry simulation logic
+
+Software & Environment - Web Browser (Chrome/Edge/Firefox) for running
+the dashboard - Command Prompt / Local Python HTTP Server (optional) for
+professional local hosting - Code Editor such as VS Code or Notepad++
+
+No external libraries or frameworks were used to keep the solution
+lightweight, simple, and portable.
+
+4.  Key Features
+
+-   Real-time 1-second telemetry updates
+-   Automatic 30-second simulation cycle
+-   Clean visual dashboard layout
+-   No installation or dependencies required
+-   Easy to extend with graphs, gauges, or live maps
+
+5.  Conclusion This project demonstrates my ability to:
+
+-   Translate aerospace telemetry concepts into a working software
+    interface
+-   Build a real-time simulation system
+-   Design a clear and professional user interface
+-   Deliver a complete, well-structured internship submission
+
+The solution is simple, functional, and easily expandable into a full
+drone ground-control dashboard.

@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drone Telemetry Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Drone Telemetry Dashboard</h1>
+        <div class="grid">
+            <div class="card">
+                <h2>Altitude</h2>
+                <p id="altitude">0 m</p>
+            </div>
+            <div class="card">
+                <h2>Speed</h2>
+                <p id="speed">0 m/s</p>
+            </div>
+            <div class="card">
+                <h2>Battery</h2>
+                <p id="battery">100 %</p>
+            </div>
+            <div class="card">
+                <h2>GPS</h2>
+                <p id="gps">(0, 0)</p>
+            </div>
+        </div>
+        <p class="note">Values update every second for 30 seconds.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
